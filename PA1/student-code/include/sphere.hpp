@@ -11,6 +11,7 @@ class Sphere : public Object3D {
 public:
     Sphere() {
         // unit ball at the center
+        
     }
 
     Sphere(const Vector3f &center, float radius, Material *material) : Object3D(material) {
@@ -25,7 +26,8 @@ public:
     }
 
 protected:
-
+    Vector3f center;
+    float radius;
 };
 
 
