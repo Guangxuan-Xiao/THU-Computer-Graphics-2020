@@ -23,9 +23,10 @@ class Triangle : public Object3D {
 
     bool intersect(const Ray& r, Hit& h, float tmin) override {
         Vector3f o(r.getOrigin()), dir(r.getDirection());
+        dir.normalize();
         float cos = Vector3f::dot(normal, dir);
         // 平行
-        if (cos == 0) return false;
+        if (fabs(cos)<1e-6) return false;
         // d = n.o + t*n.dir => t = (d-n.o)/(n.dir)
         float d = Vector3f::dot(normal, a);
         float t = (d - Vector3f::dot(normal, o)) / Vector3f::dot(normal, dir);
@@ -41,9 +42,9 @@ class Triangle : public Object3D {
 
    protected:
     bool inTriangle(const Vector3f& p) {
-        return Vector3f::dot(Vector3f::cross((b - p), (c - p)), normal) > 0 &&
-               Vector3f::dot(Vector3f::cross((c - p), (a - p)), normal) > 0 &&
-               Vector3f::dot(Vector3f::cross((a - p), (b - p)), normal) > 0;
+        return Vector3f::dot(Vector3f::cross((b - p), (c - p)), normal) >= -1e-6 &&
+               Vector3f::dot(Vector3f::cross((c - p), (a - p)), normal) >= -1e-6 &&
+               Vector3f::dot(Vector3f::cross((a - p), (b - p)), normal) >= -1e-6;
     }
 };
 

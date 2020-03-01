@@ -25,14 +25,14 @@ class Sphere : public Object3D {
     bool intersect(const Ray &r, Hit &h, float tmin) override {
         Vector3f o(r.getOrigin()), dir(r.getDirection());
         Vector3f OC(center - o);
-        assert(dir.length() == 1);
+        dir.normalize();
         // 计算OC在射线方向的投影长度OH: OC@OH/|OH|
         float OH = Vector3f::dot(OC, dir);
         // 计算CH的长度
-        float CH = sqrt(OC.squaredLength() - OH * OH);
+        float CH = sqrt(fabs(OC.squaredLength() - OH * OH));
         if (CH > radius) return false;
         // 计算PH的长度
-        float PH = sqrt(radius * radius - CH * CH);
+        float PH = sqrt(fabs(radius * radius - CH * CH));
         float t = OH - PH;
         if (t < tmin || t > h.getT()) return false;
         Vector3f P(o + dir * t);

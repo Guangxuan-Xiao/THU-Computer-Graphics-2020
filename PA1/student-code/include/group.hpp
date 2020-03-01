@@ -21,7 +21,8 @@ class Group : public Object3D {
     // 对列表里所有物体都求一遍交点
     bool intersect(const Ray &r, Hit &h, float tmin) override {
         bool flag = false;
-        for (auto obj : objList) flag = flag || obj->intersect(r, h, tmin);
+        for (auto obj : objList)
+            if (obj) flag |= obj->intersect(r, h, tmin);
         return flag;
     }
 

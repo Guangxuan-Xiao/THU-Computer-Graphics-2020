@@ -36,7 +36,7 @@ class Material {
     Vector3f diffuseColor;   // 漫反射系数
     Vector3f specularColor;  // 高光系数
     float shininess;         //高光指数
-    float relu(float x) { return max((float)0, x); }
+    float relu(float x) { return std::max((float)0, x); }
 };
 
 #endif  // MATERIAL_H
