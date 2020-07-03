@@ -1,0 +1,3 @@
+/home/xgx/learn/CG/final_cuda/build/CMakeFiles/rebuild_cache.dir
+/home/xgx/learn/CG/final_cuda/build/CMakeFiles/final_gpu.dir
+/home/xgx/learn/CG/final_cuda/build/CMakeFiles/edit_cache.dir

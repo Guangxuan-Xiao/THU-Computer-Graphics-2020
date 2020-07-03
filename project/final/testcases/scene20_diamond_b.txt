@@ -1,0 +1,155 @@
+PerspectiveCamera {
+    center 0 0 6
+    direction 0 0 -6
+    up 0 1 0
+    angle 40
+    width 1000
+    height 1000
+}
+
+Lights {
+    numLights 3
+    PointLight {
+        position 3 5 0
+        color 1 0.1 0.1
+    }
+    PointLight {
+        position 0 3.5 5
+	    color 0.1 1 0.1
+    }
+    PointLight {
+        position -3 5 0
+	    color 0.1 0.1 1
+    }
+}
+
+Background {
+    color 0.2 0.2 0.2
+}
+
+Materials {
+    numMaterials 3
+    Material {
+        diffuseColor 1 1 1
+	    shininess 32
+        type 0 0 1
+	    refr 2.46
+    }
+    Material { 
+        color 0.5 0.5 0.5
+        emission 0 0 0
+        type 1 0 0
+    }
+    Material { 
+        color 0.9 0.9 0.9
+        type 1 0 0
+        emission 1 1 1
+    }
+}
+
+DiskLights {
+    numDiskLights 8
+    DiskLight {
+	    position 0 4 7
+        direction 0 -4 -7 
+        color 100 100 100
+        radius 1.5 
+    }
+    DiskLight {
+	    position 2 4 0 
+        direction -2 -4 0
+        color 100 100 100
+        radius 1
+    }
+    DiskLight {
+	    position -2 4 0 
+        direction 2 -4 0 
+        color 100 100 100
+        radius 1
+    }
+    DiskLight {
+	    position 0 4 0 
+        direction 0 -1 0 
+        color 100 100 100
+        radius 1
+    }
+        DiskLight {
+	    position 0 4 7
+        direction 0 4 7 
+        color 100 100 100
+        radius 1.5 
+    }
+    DiskLight {
+	    position 2 4 0 
+        direction 2 4 0
+        color 100 100 100
+        radius 1
+    }
+    DiskLight {
+	    position -2 4 0 
+        direction -2 4 0 
+        color 100 100 100
+        radius 1
+    }
+    DiskLight {
+	    position 0 4 0 
+        direction 0 1 0 
+        color 100 100 100
+        radius 1
+    }
+}
+
+Group {
+    numObjects 11
+    MaterialIndex 0
+    Transform {
+        Scale 0.8 0.8 0.8
+        ZRotate -10
+        XRotate -70
+        TriangleMesh {
+            obj_file mesh/diamond.obj
+        }
+    }
+    MaterialIndex 1
+    Plane {
+	    normal 0 0 -1
+        offset -8
+    }
+    Plane {
+	    normal 0 -1 0
+        offset -5
+    }
+    Plane {
+	    normal 0 1 0
+        offset -1.5
+    }
+    Plane {
+	    normal 1 0 0
+        offset -3
+    }
+    Plane {
+	    normal 0 0 1
+        offset -3
+    }
+    Plane {
+	    normal -1 0 0
+        offset -3
+    }
+    MaterialIndex 2
+    Sphere {
+	    center 0 5 8 
+        radius 0.8 
+    }
+    Sphere {
+	    center 3 5 0 
+        radius 0.8
+    }
+    Sphere {
+	    center -3 5 0 
+        radius 0.8
+    }
+    Sphere {
+	    center 0 5 0 
+        radius 0.8
+    }
+}

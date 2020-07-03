@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
     for (int x = 0; x < camera->getWidth(); ++x) {
         for (int y = 0; y < camera->getHeight(); ++y) {
             // 计算当前像素(x, y)处相机出射光线camRay
-            Ray camRay = camera->generateRay(Vector2f(x + 1, y + 1));
+            Ray camRay = camera->generateRay(Vector2f(x, y));
             Group* baseGroup = sceneParser.getGroup();
             Hit hit;
             // 判断camRay是否和场景有交点,返回最近交点的数据,存储在hit中.

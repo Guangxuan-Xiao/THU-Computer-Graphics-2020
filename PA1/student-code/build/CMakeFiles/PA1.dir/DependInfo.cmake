@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/image.cpp" "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/image.cpp.o"
-  "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/main.cpp" "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/main.cpp.o"
-  "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/mesh.cpp" "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/mesh.cpp.o"
-  "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/scene_parser.cpp" "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/scene_parser.cpp.o"
+  "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/image.cpp" "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/image.cpp.o"
+  "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/main.cpp" "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/main.cpp.o"
+  "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/mesh.cpp" "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/mesh.cpp.o"
+  "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/src/scene_parser.cpp" "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/CMakeFiles/PA1.dir/src/scene_parser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/deps/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
+  "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/deps/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

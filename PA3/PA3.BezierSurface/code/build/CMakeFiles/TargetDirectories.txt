@@ -1,0 +1,6 @@
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/CMakeFiles/rebuild_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/CMakeFiles/PA3.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/CMakeFiles/edit_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/deps/vecmath/CMakeFiles/vecmath.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA3/PA3.BezierSurface/code/build/deps/vecmath/CMakeFiles/edit_cache.dir

@@ -1,0 +1,134 @@
+
+PerspectiveCamera {
+    center 50 52 295.6
+    direction 0 -0.042612 -1
+    up 0 1 0
+    angle 30
+    width 1000
+    height 1000
+    focalLength 220
+    aperture 6
+}
+
+Lights {
+    numLights 2
+    PointLight {
+      position 50 16 295
+      color 1 1 1
+    }
+    PointLight {
+      position 50 75 82
+      color 1 1 1
+    }
+}
+
+Background {
+    color 0 0 0 
+}
+
+Materials {
+    numMaterials 8
+    Material { 
+        color 0.75 0.25 0.25
+        type 1 0 0
+    }
+    Material { 
+        color 0.25 0.25 0.75 
+        type 1 0 0
+    }
+    Material { 
+        color 0.75 0.75 0.75 
+        type 1 0 0
+    }
+    Material { 
+        color 0 0 0
+        type 1 0 0
+    }
+    Material {
+        color 1 1 1
+        type 1 0 0
+        texture texture/world_nocloud.jpg
+    }
+    Material {
+        color 1 1 1
+        type 0 0 1
+        refr 1.5
+        texture texture/world_nocloud.jpg
+    }
+    Material {
+        color 0 0 0
+        emission 15 15 15
+        type 1 0 0
+    }
+    Material {
+        color 0 0 0
+        emission 30 30 30
+        type 1 0 0
+    }
+}
+
+Group {
+    numObjects 11
+    MaterialIndex 0
+    Plane {
+        normal 1 0 0
+        offset 0
+    }
+    MaterialIndex 1
+    Plane {
+        normal -1 0 0
+        offset -100 
+    }
+    MaterialIndex 2
+    Plane {
+        normal 0 0 1
+        offset -10
+    }
+    MaterialIndex 3
+    Plane {
+        normal 0 0 -1
+        offset -300
+    }
+    MaterialIndex 2
+    Plane {
+        normal 0 1 0
+        offset 0
+    }
+    MaterialIndex 2
+    Plane {
+        normal 0 -1 0
+        offset -81.6
+    }
+    MaterialIndex 4
+    Transform {
+        Translate 50 16.5 62.5
+        YRotate 270
+        Sphere {
+            center 0 0 0
+            radius 16.5
+        }
+    }
+    Transform {
+        Translate 80 16.5 108
+        YRotate 90
+        Sphere {
+            center 0 0 0
+            radius 16.5
+        }
+    }
+    Sphere {
+        center 20 16.5 17
+        radius 16.5 
+    }
+    MaterialIndex 6
+    Sphere {
+        center 50 681.33 81.6 
+        radius 600
+    }
+    MaterialIndex 7
+    Sphere {
+        center 50 16 295 
+        radius 25
+    }
+}
+

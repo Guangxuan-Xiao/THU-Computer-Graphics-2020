@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code
+# Install script for directory: /mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/deps/vecmath/cmake_install.cmake")
+  include("/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/deps/vecmath/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

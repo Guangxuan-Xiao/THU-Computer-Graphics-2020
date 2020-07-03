@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/PA0.dir/src/image.cpp.o CMakeFiles/PA0.dir/src/main.cpp.o CMakeFiles/PA0.dir/src/canvas_parser.cpp.o  -o ../bin/PA0 deps/vecmath/libvecmath.a 

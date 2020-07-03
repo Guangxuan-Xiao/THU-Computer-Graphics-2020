@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/x86_64-pc-linux-gnu",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/backward",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -23,18 +23,19 @@ class Material {
     Vector3f Shade(const Ray &ray, const Hit &hit, const Vector3f &dirToLight,
                    const Vector3f &lightColor) {
         // phong模型的公式套进去就可以
-        Vector3f N = hit.getNormal(), V = -ray.getDirection();
-        Vector3f Rx = 2 * (Vector3f::dot(dirToLight, N)) * N - dirToLight;
+        Vector3f N = hit.getNormal(), V = -ray.getDirection().normalized();
+        Vector3f Lx = dirToLight.normalized();
+        Vector3f Rx = (2 * (Vector3f::dot(Lx, N)) * N - Lx).normalized();
         Vector3f shaded =
             lightColor *
-            (diffuseColor * relu(Vector3f::dot(dirToLight, N)) +
+            (diffuseColor * relu(Vector3f::dot(Lx, N)) +
              specularColor * (pow(relu(Vector3f::dot(V, Rx)), shininess)));
         return shaded;
     }
 
    protected:
     Vector3f diffuseColor;   // 漫反射系数
-    Vector3f specularColor;  // 高光系数
+    Vector3f specularColor;  // 镜面反射系数
     float shininess;         //高光指数
     float relu(float x) { return std::max((float)0, x); }
 };

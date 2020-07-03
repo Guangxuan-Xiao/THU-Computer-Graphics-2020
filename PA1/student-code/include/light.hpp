@@ -5,17 +5,18 @@
 #include "object3d.hpp"
 
 class Light {
-public:
+   public:
     Light() = default;
 
     virtual ~Light() = default;
 
-    virtual void getIllumination(const Vector3f &p, Vector3f &dir, Vector3f &col) const = 0;
+    virtual void getIllumination(const Vector3f &p, Vector3f &dir,
+                                 Vector3f &col) const = 0;
+    virtual void type() const = 0;
 };
 
-
 class DirectionalLight : public Light {
-public:
+   public:
     DirectionalLight() = delete;
 
     DirectionalLight(const Vector3f &d, const Vector3f &c) {
@@ -27,22 +28,25 @@ public:
 
     ///@param p unsed in this function
     ///@param distanceToLight not well defined because it's not a point light
-    void getIllumination(const Vector3f &p, Vector3f &dir, Vector3f &col) const override {
+    void getIllumination(const Vector3f &p, Vector3f &dir,
+                         Vector3f &col) const override {
         // the direction to the light is the opposite of the
         // direction of the directional light source
         dir = -direction;
         col = color;
     }
 
-private:
+    void type() const override {
+        std::cout << "This is directional light." << std::endl;
+    }
 
+   private:
     Vector3f direction;
     Vector3f color;
-
 };
 
 class PointLight : public Light {
-public:
+   public:
     PointLight() = delete;
 
     PointLight(const Vector3f &p, const Vector3f &c) {
@@ -52,7 +56,8 @@ public:
 
     ~PointLight() override = default;
 
-    void getIllumination(const Vector3f &p, Vector3f &dir, Vector3f &col) const override {
+    void getIllumination(const Vector3f &p, Vector3f &dir,
+                         Vector3f &col) const override {
         // the direction to the light is the opposite of the
         // direction of the directional light source
         dir = (position - p);
@@ -60,11 +65,13 @@ public:
         col = color;
     }
 
-private:
+    void type() const override {
+        std::cout << "This is point light." << std::endl;
+    }
 
+   private:
     Vector3f position;
     Vector3f color;
-
 };
 
-#endif // LIGHT_H
+#endif  // LIGHT_H

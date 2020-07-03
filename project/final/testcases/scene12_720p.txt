@@ -1,0 +1,133 @@
+PerspectiveCamera {
+    center 0 0 40
+    direction 0 0 -1
+    up 0 1 0
+    angle 30
+    width 800
+    height 800
+}
+
+Lights {
+    numLights 1
+    PointLight {
+        position 0.0 5 5
+        color 0.9 0.9 0.9 
+    }
+}
+
+Background {
+    color 0 0 0 
+}
+
+Materials {
+    numMaterials 9
+    Material { 
+        color 1 1 0.4 
+        type 0 1 0
+        refr 1.4
+    }
+    Material { 
+        color 0.6 1 0.6 
+        type 0 0 1
+        refr 0.6
+    }
+    Material { 
+        color 1 0.8 1
+        type 0 0 1
+        refr 1.4
+    }
+    Material { 
+        color 0.3 0.3 1 
+        type 0.1 0 0.9
+        refr 1.5
+    }
+    Material { 
+        color 1 0.2 0.2 
+        type 0.7 0.3 0
+        refr 1.5
+    }
+    Material { 
+        color 1 1 1
+        type 1 0 0
+    }
+    Material { 
+        color 1 1 1
+        type 0 1 0
+        emission 1 1 1
+    }
+    Material { 
+        color 1 1 1
+        type 0 1 0
+        emission 10 10 10
+    }
+    Material { 
+        color 1 1 1 
+        type 0 1 0
+    }
+}
+
+Group {
+    numObjects 13
+    MaterialIndex 0
+    Sphere {
+	    center 0 0 0
+        radius 3.7 
+    }
+    MaterialIndex 1
+    Sphere {
+	    center 4 4 4 
+        radius 3
+    }
+    MaterialIndex 2
+    Sphere {
+	    center -4 -4 4 
+        radius 3
+    }
+    MaterialIndex 3
+    Sphere {
+	    center -4 4 -4 
+        radius 3
+    }
+    MaterialIndex 4
+    Sphere {
+	    center 4 -4 -4 
+        radius 3 
+    }
+    MaterialIndex 5
+    Plane {
+	    normal 0 0 1
+        offset -8
+    }
+    Plane {
+	    normal 0 0 -1
+        offset -44
+    }
+    Plane {
+	    normal 0 -1 0
+        offset -16
+    }    
+    Plane {
+	    normal -1 0 0
+        offset -8
+    }
+    Plane {
+	    normal 1 0 0
+        offset -8
+    }
+    MaterialIndex 6
+    Sphere {
+	    center 0 20 0 
+        radius 6 
+    }
+    MaterialIndex 7
+    Sphere {
+	    center 0 -4 54
+        radius 12 
+    }
+    MaterialIndex 8
+    Plane {
+	    normal 0 1 0
+        offset -8
+    }
+}
+

@@ -25,7 +25,7 @@ class Plane : public Object3D {
 
     bool intersect(const Ray &r, Hit &h, float tmin) override {
         Vector3f o(r.getOrigin()), dir(r.getDirection());
-        dir.normalize();
+        // dir.normalize();
         float cos = Vector3f::dot(normal, dir);
         // 平行
         if (fabs(cos) < 1e-6) return false;

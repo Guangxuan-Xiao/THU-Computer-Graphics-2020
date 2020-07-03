@@ -30,9 +30,9 @@ cmath
 
 ../deps/vecmath/include/Vector4f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.cpp
 Matrix2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
 cassert
 -
 cmath
@@ -42,11 +42,11 @@ cstdio
 cstring
 -
 Vector2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.cpp
 Matrix3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.h
 cassert
 -
 cmath
@@ -56,15 +56,15 @@ cstdio
 cstring
 -
 Matrix2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
 Quat4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix4f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix4f.cpp
 Matrix4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix4f.h
 cassert
 -
 cmath
@@ -74,29 +74,29 @@ cstdio
 cstring
 -
 Matrix2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix2f.h
 Matrix3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Matrix3f.h
 Quat4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 Vector4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.cpp
 cmath
 -
 cstdio
 -
 Quat4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Quat4f.h
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 Vector4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.cpp
 cassert
 -
 cmath
@@ -106,11 +106,11 @@ cstdio
 cstdlib
 -
 Vector2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.cpp
 cmath
 -
 cstdio
@@ -118,11 +118,11 @@ cstdio
 cstdlib
 -
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 Vector2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
 
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.cpp
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.cpp
 cmath
 -
 cstdio
@@ -130,9 +130,9 @@ cstdio
 cstdlib
 -
 Vector4f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector4f.h
 Vector2f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector2f.h
 Vector3f.h
-/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
+/mnt/d/Documents/2019-2020Spring/Learning/CG/hw/PA1/student-code/deps/vecmath/src/Vector3f.h
 

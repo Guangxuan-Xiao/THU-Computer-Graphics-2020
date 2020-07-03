@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O3 -Wno-deprecated-declarations -O3 -DNDEBUG  -rdynamic CMakeFiles/PA2.dir/src/image.cpp.o CMakeFiles/PA2.dir/src/main.cpp.o CMakeFiles/PA2.dir/src/mesh.cpp.o CMakeFiles/PA2.dir/src/scene_parser.cpp.o CMakeFiles/PA2.dir/src/camera_controller.cpp.o  -o ../bin/PA2  deps/vecmath/libvecmath.a -lGL -lGLU -lglut -lXmu -lXi 

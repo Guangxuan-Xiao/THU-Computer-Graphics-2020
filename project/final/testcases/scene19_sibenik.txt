@@ -1,0 +1,386 @@
+PerspectiveCamera {
+    center -18.8 -12.6 0
+    direction 1 0.1 0
+    up 0 1 0
+    angle 50
+    width 3000
+    height 2000
+}
+
+Lights {
+    numLights 2
+    PointLight {
+        position 0 0 0
+        color 0.9 0.9 0.9 
+    }
+    PointLight {
+        position -15.8 -12.6 0
+        color 0.9 0.9 0.9 
+    }
+}
+
+DiskLights {
+    numDiskLights 15
+    DiskLight {
+        position 5 2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -2 2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -10 2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -20 2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position 5 -12 0
+        direction 1 0 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -2 -12 0
+        direction 1 0 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -5 -12 0
+        direction 0 1 0
+        color 50 50 50
+        radius 10 
+    }
+    DiskLight {
+        position 2 -2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -8 -2 0
+        direction 0 -1 0
+        color 250 250 250
+        radius 10
+    }
+    DiskLight {
+        position -19 -12.6 2
+        direction 1 0 1
+        color 250 250 250
+        radius 10
+    }
+    DiskLight {
+        position -19 -12.6 0
+        direction 1 0.1 0.1
+        color 250 250 250
+        radius 10
+    }
+    DiskLight {
+        position 5 -5 0
+        direction 1 0 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -2 -5 0
+        direction 1 0 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -10 -5 0
+        direction 1 0 0
+        color 250 250 250
+        radius 10 
+    }
+    DiskLight {
+        position -19 -5 0
+        direction 1 0.1 0.1
+        color 250 250 250
+        radius 10
+    }
+}
+
+Background {
+    color 0.8 0.8 0.9
+}
+
+Materials {
+    numMaterials 18
+Material {
+    specularColor 0.0 0.0 0.0
+    diffuseColor 0.784314 0.784314 0.784314
+    shininess 8.0
+}
+
+Material {
+    specularColor 0.784314 0.784314 0.784314
+    diffuseColor 0.784314 0.784314 0.784314
+    shininess 256.0
+    type 0 0 1
+    refr 1.5
+    emission 1 1 1
+}
+
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+
+texture texture/sibenik/kamen.bmp
+bump texture/sibenik/kamen-bump.bmp
+}
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+
+texture texture/sibenik/KAMEN-stup.bmp
+}
+Material {
+specularColor 0.6 0.6 0.6
+diffuseColor 0.734118 0.709412 0.674118
+shininess 8.0
+type 0.7 0.3 0
+texture texture/sibenik/mramor6x6.bmp
+bump texture/sibenik/mramor6x6-bump.bmp
+}
+
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.546274 0.219608 0.183922
+shininess 8.0
+
+}
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+
+texture texture/sibenik/kamen.bmp
+bump texture/sibenik/kamen-bump.bmp
+}
+
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+
+texture texture/sibenik/kamen.bmp
+bump texture/sibenik/kamen-bump.bmp
+}
+
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+texture texture/sibenik/kamen.bmp
+bump texture/sibenik/kamen-bump.bmp
+}
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+texture texture/sibenik/KAMEN-stup.bmp
+}
+Material {
+specularColor 0.882353 0.207843 0.098039
+diffuseColor 0.441176 0.103922 0.04902
+shininess 256.0
+}
+
+Material {
+specularColor 0.0 0.0 0.0
+diffuseColor 0.734118 0.730588 0.674118
+shininess 8.0
+texture texture/sibenik/KAMEN-stup.bmp
+}
+
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 0.033333 0.315686 0.037255
+shininess 256.0
+type 0.5 0.5 0
+}
+
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 0.041177 0.072549 0.392157
+shininess 256.0
+type 0.5 0.5 0
+}
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 0.5 0.445098 0.003922
+shininess 256.0
+type 0.4 0.6 0
+}
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 0.8 0.8 0.8
+shininess 256.0
+emission 20 20 20
+}
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 0.8 0.8 0.8
+shininess 256.0
+emission 10 10 10
+}
+Material {
+specularColor 0.8 0.8 0.8
+diffuseColor 1 1 1
+shininess 256.0
+refr 1.5
+type 0 0 1
+emission 1 1 1
+}
+}
+
+Group {
+numObjects 28
+MaterialIndex 0
+TriangleMesh {
+obj_file mesh/sibenik/sibenik0.obj
+}
+MaterialIndex 1
+TriangleMesh {
+obj_file mesh/sibenik/sibenik1.obj
+}
+
+MaterialIndex 2
+TriangleMesh {
+obj_file mesh/sibenik/sibenik2.obj
+}
+
+MaterialIndex 3
+TriangleMesh {
+obj_file mesh/sibenik/sibenik3.obj
+}
+
+MaterialIndex 4
+TriangleMesh {
+obj_file mesh/sibenik/sibenik4.obj
+}
+
+MaterialIndex 5
+TriangleMesh {
+obj_file mesh/sibenik/sibenik5.obj
+}
+
+MaterialIndex 6
+TriangleMesh {
+obj_file mesh/sibenik/sibenik6.obj
+}
+
+MaterialIndex 7
+TriangleMesh {
+obj_file mesh/sibenik/sibenik7.obj
+}
+
+MaterialIndex 8
+TriangleMesh {
+obj_file mesh/sibenik/sibenik8.obj
+}
+
+MaterialIndex 9
+TriangleMesh {
+obj_file mesh/sibenik/sibenik9.obj
+}
+
+MaterialIndex 10
+TriangleMesh {
+obj_file mesh/sibenik/sibenik10.obj
+}
+
+MaterialIndex 11
+TriangleMesh {
+obj_file mesh/sibenik/sibenik11.obj
+}
+
+MaterialIndex 12
+TriangleMesh {
+obj_file mesh/sibenik/sibenik12.obj
+}
+
+MaterialIndex 13
+TriangleMesh {
+obj_file mesh/sibenik/sibenik13.obj
+}
+
+MaterialIndex 14
+TriangleMesh {
+    obj_file mesh/sibenik/sibenik14.obj
+}
+MaterialIndex 15
+Sphere {
+    center 0 4 0
+    radius 4
+}
+Sphere {
+    center -5 4 0
+    radius 4
+}
+Sphere {
+    center -10 4 0
+    radius 4
+}
+Sphere {
+    center -15 0 0
+    radius 4
+}
+Sphere {
+    center -20 -7 0
+    radius 4
+}
+Sphere {
+    center -2 4 0
+    radius 4
+}
+Sphere {
+    center -18.8 -12.6 8
+    radius 5
+}
+Sphere {
+    center -18.8 -12.6 -8
+    radius 5
+}
+Sphere {
+    center -23.8 -13.6 0
+    radius 5
+}
+Sphere {
+    center 7.7 14 0
+    radius 8
+}
+MaterialIndex 16
+Sphere {
+    center 7.2 -8 8.2
+    radius 1
+}
+Sphere {
+    center 7.2 -8 -8.2
+    radius 1
+}
+MaterialIndex 17
+Transform {
+    Translate 14 -13 0 
+    Scale 0.015 0.015 0.015
+    YRotate -45
+    TriangleMesh {
+        obj_file mesh/Alucy.obj
+    }
+}
+}

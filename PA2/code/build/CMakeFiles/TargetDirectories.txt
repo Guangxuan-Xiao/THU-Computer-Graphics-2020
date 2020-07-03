@@ -1,0 +1,6 @@
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/CMakeFiles/rebuild_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/CMakeFiles/PA2.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/CMakeFiles/edit_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/deps/vecmath/CMakeFiles/vecmath.dir
+/run/media/charlie/Files/Documents/2019-2020Spring/Learning/CG/hw/PA2/code/build/deps/vecmath/CMakeFiles/edit_cache.dir

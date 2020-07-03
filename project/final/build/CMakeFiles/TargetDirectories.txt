@@ -1,0 +1,6 @@
+/home/xgx/learn/CG/final/build/CMakeFiles/rebuild_cache.dir
+/home/xgx/learn/CG/final/build/CMakeFiles/PA1.dir
+/home/xgx/learn/CG/final/build/CMakeFiles/edit_cache.dir
+/home/xgx/learn/CG/final/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/home/xgx/learn/CG/final/build/deps/vecmath/CMakeFiles/vecmath.dir
+/home/xgx/learn/CG/final/build/deps/vecmath/CMakeFiles/edit_cache.dir
